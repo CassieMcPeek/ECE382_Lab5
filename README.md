@@ -9,3 +9,7 @@ ECE382_Lab5
   
   
 # Day 1
+1. 	How long will it take the timer to roll over? 
+	(0xFFF cnts)/rollover*  (8 clks)/(1 cnt)*  (1 us)/(8 clks)   = 0xFFFF us/rollover
+2. 	How long does each timer count last?
+	(1 cnt)/1*  (8 clks)/(1 cnt)*  (1 us)/(8 clks) = 1 cnt = 1 us
