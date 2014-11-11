@@ -17,3 +17,4 @@ ECE382_Lab5
 
 	(1 cnt)/1*  (8 clks)/(1 cnt)*  (1 us)/(8 clks) = 1 cnt = 1 us
 
+![alt text] (https://raw.github.com/CassieMcPeek/ECE382_Lab5/master/Day_1_Picture.jpg "Logic Analyzer")
