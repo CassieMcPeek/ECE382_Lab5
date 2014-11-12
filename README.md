@@ -52,7 +52,9 @@ The hardware schematic for required functionality is below.
 
 ![alt text] (https://raw.github.com/CassieMcPeek/ECE382_Lab5/master/Schematic.JPG "Logic Analyzer")
 
-Once I had the MSP430 all hooked up, I began with the given files, start5.c and start5.h. The first part that I ran into trouble with, was I forgot to change the values in the header file to the correct values for my remote. I was debugging, and with the help of breakpoints, I knew that my code was responding to the button presses, but it was not toggling the LED like I wanted it to. After playing around with my code, C2C Ian Goodbody told me to double check the values in my header file. After looking at those again, I realized that they were the values for remote 6 and I was now using remote 5. Looking back, it probably would have been easier to just use rmeote 6 the entire lab, but at that point I had already done the logic analyzer part for remote 5 so I continued on with that. Below are the correct values for remote 5 in the header file. 
+Once I had the MSP430 all hooked up, I began with the given files, start5.c and start5.h. The first part that I ran into trouble with, was I forgot to change the values in the header file to the correct values for my remote. I was debugging, and with the help of breakpoints, I knew that my code was responding to the button presses, but it was not toggling the LED like I wanted it to. After playing around with my code, C2C Ian Goodbody told me to double check the values in my header file. After looking at those again, I realized that they were the values for remote 6 and I was now using remote 5. Looking back, it probably would have been easier to just use rmeote 6 the entire lab, but at that point I had already done the logic analyzer part for remote 5 so I continued on with that. Below are the correct values for remote 5 in the header file.
+
+
 		#define		averageLogic0Pulse	450 
 		#define		averageLogic1Pulse	0x05DF
 		#define		averageStartPulse	22500 
