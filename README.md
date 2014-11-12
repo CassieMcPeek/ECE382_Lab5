@@ -5,7 +5,7 @@ ECE382_Lab5
 
 # Purpose
   In this lab, we used our knowledge of interrupts and the Timer_A subsystem to reverse engineer a remote control. We used the timer interrupt and the general purpose pin interrupt to decode a remote control. The purpose of 
-  day 1 was to learn the timing and bit patterns of our remote controls. Day 2, we were to demonstrate that our code can receive and decode button presses from our remote controls. Day 3 we were to implement either our etch-a-sketch or pong game.
+  day 1 was to learn the timing and bit patterns of our remote controls. Day 2, we were to demonstrate that our code can receive and decode button presses from our remote controls. Day 3 we were to implement either our etch-a-sketch or pong game. I utilized remote 5 for the functionality of this lab. For the prelab, I used remote 6. I ran into a lot of problems with remote 6, which is why I changed for the funcitonality.  The last table reflects the correct code for the buttons on remote 5; however, the first two tables reflect the results of remote 6 with the logic analyzer. I had to re-do the logic analyzer portion with remote 5 to obtain the correct values
   
   
 # Day 1
@@ -44,7 +44,7 @@ Write the codes (in hex) for several remote control buttons.
 
 ![alt text] (https://raw.github.com/CassieMcPeek/ECE382_Lab5/master/Day_1_Table_3.JPG "Logic Analyzer")
 
-# Day 2
+# Day 2/Required Functionality
 
-
+There were multiple challenges I faced throughout this lab. The first was that I ran into a lot of problems with remote 6, which is why I changed for the functionality.  The last table in the prelab reflects the correct code for the buttons on remote 5; however, the first two tables reflect the results of remote 6 with the logic analyzer. I had to re-do the logic analyzer portion with remote 5 to obtain the correct values, and those values are utilized in the required funcitonality code. 
 
