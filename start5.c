@@ -26,15 +26,15 @@ void main(void) {
 
 	initMSP430();				// Setup MSP to process IR and buttons
 
-	_enable_interrupt();
+	_enable_interrupt();			//enable interrupt before entering loop
 
 	while(1)  {
 		packetIndex2 = 0;
 		if (newIrPacket)
 		{
-			_disable_interrupt();
+			_disable_interrupt();		//disable interrupt before checking conditions
 			while ((packetData[packetIndex2] != 2) && (packetIndex2 < 40)){
-				packetIndex2++;
+				packetIndex2++;		//incrementing packetIndex2 as it goes through each condition.
 			}
 			int length = 0;
 			while(length < 16){
