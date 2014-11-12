@@ -44,7 +44,7 @@ Write the codes (in hex) for several remote control buttons.
 
 ![alt text] (https://raw.github.com/CassieMcPeek/ECE382_Lab5/master/Day_1_Table_3.JPG "Logic Analyzer")
 
-# Day 2
+# Day 2/Required Functionality
 
-There were multiple challenges I faced throughout this lab. The first was that I ran into a lot of problems with remote 6, which is why I changed for the functionality.  The last table in the prelab reflects the correct code for the buttons on remote 5; however, the first two tables reflect the results of remote 6 with the logic analyzer. I had to re-do the logic analyzer portion with remote 5 to obtain the correct values, and those values are in the tables below. 
+There were multiple challenges I faced throughout this lab. The first was that I ran into a lot of problems with remote 6, which is why I changed for the functionality.  The last table in the prelab reflects the correct code for the buttons on remote 5; however, the first two tables reflect the results of remote 6 with the logic analyzer. I had to re-do the logic analyzer portion with remote 5 to obtain the correct values, and those values are utilized in the required funcitonality code. 
 
