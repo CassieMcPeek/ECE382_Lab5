@@ -43,7 +43,7 @@ void main(void) {
 				length++;
 			}
 
-				if(bitString == CH_UP){
+				if(bitString == CH_UP){		//conditional statements to check which button is pressed
 					P1OUT |= BIT0;
 				}
 
@@ -74,7 +74,7 @@ void main(void) {
 				int i;
 				for(i = 0; i < 0xFFFF; i++);
 		}
-		_enable_interrupt();
+		_enable_interrupt();				//re enables the interrupt 
 
 		}
 	}
