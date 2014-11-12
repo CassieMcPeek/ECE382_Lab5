@@ -81,5 +81,34 @@ After I fixed everything in the header file, I moved onto the main file. I had a
 The required functionality gave me some trouble with errors. Once I placed breakpoints in my code and began stepping through each step, I found the issues. The first issue was with the values in the header file as mentioned before. However, after I fixed those, I was still facing errors. After looking over my code about 10 times, I then found that the source of the errors was a missing semicolon in the code below. Once I added the semicolon, the code worked properly. 
 
 
+		while(length < 16){ 
+				bitString += packetData[packetIndex2++]; 
+				bitString <<= 1; 
+				length++; 
+			} 
+				if(bitString == CH_UP){		//conditional statements to check which button is pressed 
+					P1OUT |= BIT0; 
+			} 
+				if(bitString == CH_DW){ 
+					P1OUT &= ~BIT0; 
+			} 
+				if(bitString == ONE){ 
+					P1OUT ^= BIT0; 
+			} 
+				if(bitString == VOL_UP){ 
+					P1OUT |= BIT6; 
+			} 
+				if(bitString == VOL_DW){ 
+
+					P1OUT &= ~BIT6; 
+			} 
+				if(bitString == TWO){ 
+					P1OUT ^= BIT6; 
+			} 
+
+ 
+ I achieved the Day 2 and required functionality on Monday 10 NOV (Lesson 30) at 1545. 
+ 
+ Documentation: C2C Ian Goodbody helped me with debugging my code. C2C H El-Saawy helped me by showing me how to set up the logic analyzer in order to gather the correct info for the day 1 activities. C2C Jarrod Wooden assistend me with both the syntax of my code as well as making sure that I had the correct data in my header file. 
 
 
