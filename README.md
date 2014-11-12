@@ -76,3 +76,10 @@ Once I had the MSP430 all hooked up, I began with the given files, start5.c and 
 		#define		CH_DW	0xC218 
 
 
+After I fixed everything in the header file, I moved onto the main file. I had a good understanding of what the code needed to look like in order to toggle the LED's, but I was having a little trouble with the syntax. C2C Jarrod Wooden assisted me by going over the syntax inside the main loop to check for the conditions of the buttons being pressed, as well as the syntax to determine the max and min pulse durations in order to ensure that it worked with the remote. Once I had the syntax somewhat correct, I began debugging. 
+
+The required functionality gave me some trouble with errors. Once I placed breakpoints in my code and began stepping through each step, I found the issues. The first issue was with the values in the header file as mentioned before. However, after I fixed those, I was still facing errors. After looking over my code about 10 times, I then found that the source of the errors was a missing semicolon in the code below. Once I added the semicolon, the code worked properly. 
+
+
+
+
